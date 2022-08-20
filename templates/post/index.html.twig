@@ -23,7 +23,7 @@
                 <tr>
                     <td>{{ post.id }}</td>
                     <td>
-                        <a href="{{ path('post.show', {id: post.id}) }}">{{ post.title }}</a>
+                        <a class="{{ post.title|lower }}" href="{{ path('post.show', {id: post.id}) }}">{{ post.title }}</a>
                     </td>
                     <td>
                         {% if is_granted('IS_AUTHENTICATED_FULLY') %}

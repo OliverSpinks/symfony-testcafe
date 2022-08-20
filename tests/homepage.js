@@ -1,5 +1,5 @@
 import { Selector } from "testcafe";
-import homepageElements from '../pages/homepageElements'
+import homepageElements from './homepageElements';
 
 fixture `homepage`
     .page('https://127.0.0.1:8000/');
