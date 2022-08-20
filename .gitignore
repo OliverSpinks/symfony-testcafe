@@ -1,0 +1,20 @@
+## env files
+/.env
+/.env.local
+/.env.local.php
+/.env.*.local
+
+## config / setup
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/var/cache/
+/var/cache/dev
+/vendor/
+/public/uploads/*
+package-lock.json
+/.web-server-pid
+
+## other
+.idea/
+.idea/*
