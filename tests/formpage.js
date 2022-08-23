@@ -31,8 +31,9 @@ test('testing form page authentication', async t => {
         .setFilesToUpload(homepageElements.formAttachment, "./assets/liverpool.jpg");
 
     const newFootballTeamLink = Selector('a.hull');
+
     await t
         .click(homepageElements.formSubmit)
-        .expect(newFootballTeamLink.innerText).eql(newFootballTeam);
+        .expect(newFootballTeamLink.innerText).eql("Hull");
 
 }); 
